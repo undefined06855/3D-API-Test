@@ -36,6 +36,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: hiimjasmine00/download-geode-dependency@main
+        with:
+          repository: undefined06855/3D-API
+          workflow: multi-platform.yml
+          branch: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Build the mod
         uses: geode-sdk/build-geode-mod@main
         with:
