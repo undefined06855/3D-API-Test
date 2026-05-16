@@ -1,0 +1,29 @@
+{
+    "geode": "5.7.1",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081",
+        "mac": "2.2081",
+        "ios": "2.2081"
+    },
+
+    "version": "v1.0.0",
+    "id": "undefined0.3d-api-tes",
+    "name": "3d api tes",
+    "developer": "undefined0",
+    "description": "",
+    "tags": [],
+
+    "dependencies": {
+        "undefined0.3d-api": "v1.0.0"
+    },
+
+    "resources": {
+        "files": [ "resources/*.obj", "resources/*.mtl" ],
+        "sprites": [ "resources/*.png" ]
+    },
+
+    "links": {
+        "source": "https://github.com/undefined06855/example-mod"
+    }
+}
